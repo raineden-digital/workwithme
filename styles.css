@@ -115,11 +115,23 @@ a {
 }
 
 .brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   text-decoration: none;
   font-family: "Cormorant Garamond", serif;
   font-size: 1.6rem;
   font-weight: 600;
   color: #000000;
+}
+
+.brand-logo {
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 8px 18px rgba(166, 29, 87, 0.16);
 }
 
 .nav-links {
@@ -626,9 +638,22 @@ h3 {
 }
 
 .footer-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   margin-bottom: 10px;
   color: var(--peach);
   font-size: 1.6rem;
+}
+
+.footer-logo {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  opacity: 0.86;
+  box-shadow: 0 8px 22px rgba(217, 79, 134, 0.18);
 }
 
 .footer-copy {
